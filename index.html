@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
+ 
+    <script src="https://kit.fontawesome.com/b7a9d51279.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-container navbar navbar-expand-md d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <div class="logo-h">
+                    <a class="m-0" href="#">
+                        <i class="fa-solid fa-carrot icon"></i>
+                        <div class="logo-text">
+                            <span>Sport</span>
+                            <p class="p-br"></p>
+                            <span>Service Manager</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Extension</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                <div class="d-md-none ">
+                    <button class="classic-btn">Sign Up</button>
+                </div>
+            </div>
+            <div class="d-none d-md-block ">
+                <button class="classic-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hello-Section -->
+   
+    <section id="home" class="hello">
+        <div class="container">
+            <div class="row d-flex hello-row justify-content-between align-items-center">
+                <div class="hello-text col-sm-12 col-lg-6">
+                    <h1>Lorem ipsum <br> dolor sit amet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat voluptates provident
+                        tempora sit impedit minima, <br> ducimus numquam hic quidem explicabo officiis accusamus. <br>
+                        Hic, eius vel veritatis dolor exercitationem obcaecati id?</p>
+                    <button class="hello-btn-left">BUY NOW</button>
+                    <button class="hello-btn-right">TRY FOR FREE</button>
+                </div>
+                <div class=" hello-vid col-sm-12 col-lg-6">
+                    <iframe class="the-vid" src="https://www.youtube.com/embed/-SMKVJO_wGo" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Managment -->
+    <section class="managment container-fluid d-flex align-items-center flex-column justify-content-center">
+        <div class="managment-text">
+            <h1>Easy & Useful</h1>
+            <p>Project Management Tool</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum itaque enim deserunt fuga recusandae odio
+                animi tenetur architecto atque accusantium.</p>
+        </div>
+        <div class="row w-100" id="managment-content">
+            <div class="col-md-12 col-lg-4 d-flex justify-content-center">
+                <div class="managment-person">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h4>Title goes here</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta repellat ullam quia
+                        asperiores sapiente.</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 d-flex justify-content-center">
+                <div class="managment-person">
+                    <i class="fa-solid fa-user"></i>
+                    <h4>Title goes here</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta repellat ullam quia
+                        asperiores sapiente.</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 d-flex justify-content-center">
+                <div class="managment-person">
+                    <i class="fa-solid fa-shirt"></i>
+                    <h4>Title goes here</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta repellat ullam quia
+                        asperiores sapiente.</p>
+                </div>
+            </div>
+        </div>
+        <button class="managment-btn">More</button>
+        <div class="row  managment-info d-flex align-content-center">
+            <div class="col-lg-3 col-md-12 managment-cyan d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-tree-city managment-cyan managment-info-icon"></i>
+                <span class="managment-info-text">12000+ <br> Bussines</span>
+            </div>
+            <div class="col-lg-3 col-md-12 managment-blue d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-download managment-blue managment-info-icon"></i>
+                <span class="managment-info-text">60000+ <br> Downloads</span>
+            </div>
+            <div class="col-lg-3 col-md-12 managment-purple d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-user managment-purple managment-info-icon"></i>
+                <span class="managment-info-text">30000+ <br> Free installs</span>
+            </div>
+            <div class="col-lg-3 col-md-12 managment-pink d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-download managment-pink managment-info-icon"></i>
+                <span class="managment-info-text">40000+ <br> Pro Users</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="services container d-flex flex-column align-items-center justify-content-center">
+        <div class="services-text">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi tenetur cumque enim libero, maiores sint
+                vel deserunt reprehenderit molestias dolorem.</p>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa-solid fa-stairs services-icon"></i> STATISTICS
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="services-img1"></div>
+                        <div class="accordion-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum exercitationem
+                            accusamus possimus veritatis vel cupiditate impedit libero, maiores eligendi amet ea veniam
+                            deleniti. At eum ratione molestiae sunt nostrum.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="fa-solid fa-envelope services-icon"></i> INBOX
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="services-img1"></div>
+                        <div class="accordion-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum exercitationem
+                            accusamus possimus veritatis vel cupiditate impedit libero, maiores eligendi amet ea veniam
+                            deleniti. At eum ratione molestiae sunt nostrum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <i class="fa-solid fa-user-group services-icon"></i> TEAM
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="services-img1"></div>
+                        <div class="accordion-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum exercitationem
+                            accusamus possimus veritatis vel cupiditate impedit libero, maiores eligendi amet ea veniam
+                            deleniti. At eum ratione molestiae sunt nostrum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <i class="fa-solid fa-gear services-icon"></i> SETTINGS
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="services-img1"></div>
+                        <div class="accordion-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum exercitationem
+                            accusamus possimus veritatis vel cupiditate impedit libero, maiores eligendi amet ea veniam
+                            deleniti. At eum ratione molestiae sunt nostrum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        <i class="fa-solid fa-rss services-icon"></i> FEED
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="services-img1"></div>
+                        <div class="accordion-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatum exercitationem
+                            accusamus possimus veritatis vel cupiditate impedit libero, maiores eligendi amet ea veniam
+                            deleniti. At eum ratione molestiae sunt nostrum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About us -->
+    <section class="about-us d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 mt-5 d-flex align-items-center justify-content-md-center">
+                    <div class="about-us-left">
+                        <h1>What our customers <br> have to say about us</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Ab nostrum illum asperiores a culpa veniam.</p>
+                        <button class="about-us-btn">GET STARTED</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 developer-col-right d-flex  flex-column align-items-center mt-5 mb-5">
+                    <i class="fa-solid fa-angle-up developer-slide-btn "></i>
+                    <div class="about-us-right d-flex justify-content-center flex-column align-items-center">
+
+                        <div  class="developer developer-margin dev-first developer-margin d-flex align-items-center ">
+                            <div class="developer-avatar developer-avatar-first"></div>
+                            <div class="developer-text">
+                                <p>John Doe</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus in! Atque cum minus nam.</span>
+                            </div>
+                        </div>
+
+                        <div  class="developer developer-margin dev-second d-flex align-items-center">
+                            <div class="developer-avatar developer-avatar-second"></div>
+                            <div class="developer-text">
+                                <p>Khalessi</p>
+                                <span>Lorem ipsum consectetur sit amet consectetur Lorem elit. In, totam. Velit minus totam id excepturi.</span>
+                            </div>
+                        </div>        
+
+                        <div style="display: none !important;" class="developer developer-margin dev-third d-flex align-items-center">
+                            <div class="developer-avatar developer-avatar-third"></div>
+                            <div class="developer-text">
+                                <p>Adam Smith</p>
+                                <span>Lorem ipsum dolor sit, abobus consectetur adipisicing elit. Magnam, cumque suscipit help eius voluptatem ea.</span>
+                            </div>
+                        </div>
+
+                        <div style="display: none !important;" class="developer developer-margin dev-four d-flex align-items-center">
+                            <div class="developer-avatar developer-avatar-four"></div>
+                            <div class="developer-text">
+                                <p>Anna</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus in! Atque cum minus nam.</span>
+                            </div>
+                        </div>     
+                    </div>
+                    <i class="fa-solid fa-angle-down developer-slide-btn "></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Our Team -->
+
+    <section class="team d-flex  flex-column align-items-center ">
+        <div class="team-title text-center mt-5 mb-3">
+            <h1>Our Team</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nostrum illum asperiores a culpa veniam.</p>
+        </div>
+        <div class="team-slide d-flex align-items-center mb-4">
+            <div class="team-developer-avatar team-developer-avatar-first"></div>
+            <div class="team-developer-avatar team-developer-avatar-second active-team-developer"></div>
+            <div class="team-developer-avatar team-developer-avatar-third"></div>
+        </div>
+        <div class="team-text text-center">
+            <div class="team-text-first d-none">
+                <h4>Joshua Graham</h4>
+                <p>Dolore accusantium nobis vitae illum. Veritatis nulla, soluta ipsam voluptate at quo vel sint amet facilis laboriosam ut impedit ad corporis doloribus optio ex officia quia? Consequuntur impedit saepe ipsa animi qu.</p>
+            </div>
+            <div class="team-text-second">
+                <h4>Sophie Turner</h4>
+                <p>Obcaecati vel perferendis porro ipsa officiis, doloribus aperiam aspernatur sint quis nesciunt adipisci harum unde temporibus facilis modi a. Nesciunt incidunt nihil, debitis voluptatem non maiores beatae, quas.</p>
+            </div>
+            <div class="team-text-third d-none">
+                <h4>John Smith</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorem labore sequi esse totam ullam adipisci amet illum soluta. Natus reiciendis accusamus id dicta placeat enim ullam exercitationem quam praesentium.</p>
+            </div>
+        </div>
+
+        <ul class="brand-icons d-flex">
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-basketball"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+        </ul>
+
+    </section>
+
+
+    <!-- Contact Us -->
+
+    <section class="contact-us d-flex justify-content-center flex-column align-items-center">
+        <div class="contact-us-title text-center mb-5">
+            <h1 >Contact Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nostrum illum asperiores a culpa veniam.</p>
+        </div>
+        <div class="contact-us-form">
+            <form class="text-center" action="">
+                    <div class="Name">
+                        <input class="contact-input" type="text" placeholder="First Name">
+                        <input class="contact-input" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="Email-pass">
+                        <input class="contact-input" type="email" placeholder="Email">
+                        <input class="contact-input" type="number" style="-webkit-appearance: none;" placeholder="Phone">
+                    </div>
+                    <textarea class="contact-input contact-textarea" placeholder="Message" name="" id="" cols="30" rows="5"></textarea>
+                    <div class="checkbox-btn d-flex align-items-center justify-content-between">
+                        <div class="checkbox-div">
+                            <input type="checkbox" id="news">
+                            <label for="news">Subscribe to the newsletter</label>
+                        </div>
+                        
+                        <button class="blue-btn">SEND</button>
+                    </div>
+            </form>
+        </div>  
+    
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="d-flex align-items-center flex-column justify-content-center">
+
+            <div class="footer-first-row d-flex justify-content-between">
+
+                    <div class="footer-logo ">
+                        <i class="fa-solid fa-carrot icon"></i>
+                        <span>Sport <br> Service Manager</span>
+                    </div>
+
+                    <ul class="footer-nav-bar d-flex">
+                        <li><a href="">Home</i></a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Extension</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+
+            </div>
+
+            <div class="footer-br-div"></div>
+
+            <div class="footer-second-row d-flex justify-content-between">
+
+                <ul class="footer-second-nav-bar d-flex">
+                    <li><a href="">Privecy Policy</i></a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">More</a></li>
+                </ul>
+
+                <ul class="brand-icons footer-brand-icons d-flex">
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-basketball"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+                </ul>
+
+            </div>
+
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
